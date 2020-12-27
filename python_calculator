@@ -1,0 +1,36 @@
+while True:
+
+    a = int(input("Enter the first number "))
+    b = int(input ("Enter the second number "))
+
+    def topla(a,b):
+        toplama = a+b
+        print(toplama)
+
+    def carp(a,b):
+        carpma = a*b
+        print(carpma)
+
+    def cikar(a,b):
+        cikarma = a-b
+        print(cikarma)
+
+    def bol(a,b):
+        bolme = a/b
+        print(bolme)
+
+    print("1 = add")
+    print("2 = subtract")
+    print("3 = multiply")
+    print("4 = divide")
+
+    x = int(input("Which action would you like to do? "))
+
+    if x==1:
+        print (topla(a,b))
+    elif x==2:
+        print (cikar(a,b))
+    elif x==3:
+        print (carp(a,b))
+    elif x==4:
+        print (bol(a,b))
