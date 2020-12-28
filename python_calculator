@@ -27,10 +27,10 @@ while True:
     x = int(input("Which action would you like to do? "))
 
     if x==1:
-        print (topla(a,b))
+        (topla(a,b))
     elif x==2:
-        print (cikar(a,b))
+        (cikar(a,b))
     elif x==3:
-        print (carp(a,b))
+        (carp(a,b))
     elif x==4:
-        print (bol(a,b))
+        (bol(a,b))
